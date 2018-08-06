@@ -1,0 +1,19 @@
+body, html {
+  font-size: 14px;
+  font-family: "Open Sans";
+
+}
+
+/* 1. override active class style in NAVBAR */
+.active {
+  font-weight: 600;
+  color: blue;
+  background-color: white;
+}
+
+/* 2.  how do override hover styles */
+.navbar-nav li {
+  background-color: white;
+}
+
+/* 3. how do make logo dissappear in tablet style: this is with visibility class*/
