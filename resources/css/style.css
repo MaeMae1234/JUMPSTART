@@ -48,7 +48,7 @@ section {
   height: 700px;
 }*/
 
-.container {
+.container.hero {
     padding: 11.85rem 0 11.85rem 0;
     width: 51.3rem;
 
@@ -61,7 +61,7 @@ h1{
   text-shadow: -1px -1px 0 #000;
 }
 
-p {
+p.heading {
   padding: 2.8rem 0;
   /*width: 31.3rem;*/
   color: white;
@@ -87,4 +87,11 @@ a.btn-primary:hover{
 
 .btn-primary:active{
   box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+}
+
+/*************** Featured Project section ******************/
+
+.image-container img{
+  width: 100%;
+  opacity: 0.7;
 }
