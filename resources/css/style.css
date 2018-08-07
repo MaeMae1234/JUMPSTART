@@ -95,3 +95,69 @@ a.btn-primary:hover{
   width: 100%;
   opacity: 0.7;
 }
+
+h3 {
+  font-size: 1.7rem;
+  color: #399bd1;
+  font-weight: bold;
+  margin-bottom: 1.4rem;
+}
+
+h4 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+h4.categories {
+  color: #399bd1;
+}
+
+.categories-list li {
+  line-height: 1.4;
+  color: rgba(0,0,0,0.7)
+}
+
+#featured-projects {
+  padding-top: 5.85rem;
+}
+
+/***************** Projects section ***********************/
+
+
+
+
+#projects {
+  padding-bottom: 5.85rem;
+}
+
+
+/******************* Having Trouble section *****************/
+
+#bottom {
+  padding: 5.2rem 0rem;
+  background-color: #f3f3f3;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.4rem;
+}
+
+#bottom p {
+  width: 42rem;
+  margin-bottom: 2rem;
+
+}
+
+/*********************** MEDIA QUERIES ************************/
+@media (max-width: 768px) {
+   h4{
+    margin-top: 1.4rem;
+  }
+
+p {
+  margin-bottom: 2rem;
+}
+
+}
